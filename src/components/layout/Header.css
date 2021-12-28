@@ -16,8 +16,7 @@ header {
 .logo {
   width: 15%;
   top: 2%;
-  padding-top: 1.5rem;
-  padding-left: 2rem;
+  padding-top: 2rem;
 }
 
 .logo h1 {
@@ -39,6 +38,7 @@ header {
   font-size: 4rem;
   background-color: black;
   color: white;
+  padding-left: 2rem;
 }
 
 .side-links {
