@@ -1,8 +1,12 @@
-import "./HomeHeader.css";
-function HomeHeader(props) {
+import "./Header.css";
+
+function Header(props) {
+
+  const logoBg = props.home ? "logo" : "logo-home";
+
   return (
     <header>
-      <div className="logo">
+      <div className={logoBg}>
         <h1>R</h1>
       </div>
       <ul className="side-links">
@@ -14,4 +18,4 @@ function HomeHeader(props) {
   );
 }
 
-export default HomeHeader;
+export default Header;
