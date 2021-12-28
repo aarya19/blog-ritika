@@ -2,6 +2,7 @@ import Header from "../layout/Header";
 import ImageCard from "../homePageElements/ImageCard";
 import LeftMargin from "../homePageElements/LeftMargin";
 import NameCard from "../homePageElements/NameCard";
+import SocialMediaBlock from "../homePageElements/SocialMediaBlock";
 
 import MainBody from "../layout/MainBody";
 
@@ -12,6 +13,7 @@ function HomePage(props) {
       <ImageCard></ImageCard>
       <NameCard></NameCard>
       <LeftMargin></LeftMargin>
+      <SocialMediaBlock></SocialMediaBlock>
     </MainBody>
   );
 }

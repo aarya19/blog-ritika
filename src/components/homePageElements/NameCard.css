@@ -1,7 +1,7 @@
 .name-card {
   width: 400px;
   height: 200px;
-  background-color: wheat;
+  background-color: #ffff;
   border-radius: 3%;
   z-index: -1;
   position: absolute;
@@ -15,6 +15,7 @@
 .name-card h1,
 .name-card p {
   font-family: "Lato";
+  background: #ffff;
 }
 
 .name-card h1 {
