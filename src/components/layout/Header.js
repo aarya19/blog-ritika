@@ -2,19 +2,18 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 
 function Header(props) {
-  const logoBg = props.home ? "logo" : "logo-home";
+
+  const logoClass = props.home ? "logo" : "logoHome";
 
   return (
     <header>
-      <div className={logoBg}>
+      <div className={logoClass}>
         <h1>R</h1>
       </div>
       <ul className="side-links">
-        <Link className="side-links-li">Blog</Link>
-        <Link className="side-links-li">About Me</Link>
-        <Link to="/book" className="side-links-li">
-          Book a Session
-        </Link>
+        <Link to="/blog" className="side-links-li">Blog</Link>
+        <Link to="/about" className="side-links-li">About Me</Link>
+        <Link to="/book" className="side-links-li">Book a Session</Link>
       </ul>
     </header>
   );
