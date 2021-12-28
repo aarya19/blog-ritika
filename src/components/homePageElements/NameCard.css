@@ -1,0 +1,31 @@
+.name-card {
+  width: 400px;
+  height: 200px;
+  background-color: wheat;
+  border-radius: 3%;
+  z-index: -1;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 5rem;
+}
+
+.name-card h1,
+.name-card p {
+  font-family: "Lato";
+}
+
+.name-card h1 {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.name-card p {
+  display: block;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 1.5rem;
+  top: 10%;
+}
