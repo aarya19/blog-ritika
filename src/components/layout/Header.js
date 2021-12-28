@@ -13,7 +13,7 @@ function Header(props) {
       <ul className="side-links">
         <Link to="/blog" className="side-links-li">Blog</Link>
         <Link to="/about" className="side-links-li">About Me</Link>
-        <Link to="/book" className="side-links-li">Book a Session</Link>
+        <Link to="/book" className="side-links-li session-button">Book a session</Link>
       </ul>
     </header>
   );
