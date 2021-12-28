@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header(props) {
 
-  const logoClass = props.home ? "logo" : "logoHome";
+  const logoClass = props.home ? "logoHome" : "logo";
 
   return (
     <header>
