@@ -8,7 +8,7 @@ function Header(props) {
   return (
     <header>
       <div className={logoClass}>
-        <h1>R</h1>
+        <Link to="/"><h1>R</h1></Link>
       </div>
       <ul className="side-links">
         <Link to="/blog" className="side-links-li">Blog</Link>
