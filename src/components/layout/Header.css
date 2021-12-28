@@ -13,6 +13,19 @@ header {
   height: 5rem;
 }
 
+.logoHome {
+  width: 15%;
+  top: 2%;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+}
+
+.logoHome h1 {
+  font-family: "Lovers Quarrel";
+  font-size: 4rem;
+  color: black;
+}
+
 .logo {
   width: 15%;
   background-color: black;
