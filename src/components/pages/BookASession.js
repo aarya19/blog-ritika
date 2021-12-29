@@ -5,7 +5,7 @@ import BookingForm from "../bookSessionElements/BookingForm";
 function BookASession(props) {
   return (
     <MainBody>
-      <Header></Header>
+      <Header book={true}></Header>
       <BookingForm></BookingForm>
     </MainBody>
   );

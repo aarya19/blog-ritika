@@ -5,7 +5,7 @@
   margin: 0px auto;
   top: 15%;
   width: 90%;
-  height: 80%;
+  height: 73%;
   background-color: #eae0d2;
   padding: 0px 30px;
 }
@@ -37,6 +37,7 @@
   border-radius: 7px;
   background-color: #ffff;
   height: 30px;
+  font-size: 15px;
 }
 
 .form-text-input {
@@ -46,6 +47,7 @@
 .form-text-input h2 {
   background-color: #eae0d2;
   font-family: "Lato";
+  font-size: 15px;
 }
 
 .form-text-input input {

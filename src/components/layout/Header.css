@@ -30,9 +30,6 @@ header {
   width: 15%;
   background-color: black;
   color: white;
-  top: 2%;
-  padding-top: 2rem;
-  text-align: center;
 }
 
 .logoHome h1 {
@@ -40,7 +37,8 @@ header {
   font-size: 4rem;
   background-color: black;
   color: white;
-  padding-left: 2rem;
+  text-align: center;
+  padding-top: 2rem;
 }
 
 .side-links {
@@ -79,4 +77,15 @@ header {
   padding: 12px;
   padding-right: 17px;
   padding-left: 17px;
+  box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
+}
+
+.session-button-booking {
+  border-radius: 20px;
+  background-color: darkgray;
+  color: white;
+  padding: 12px;
+  padding-right: 17px;
+  padding-left: 17px;
+  box-shadow: rgba(43, 16, 16, 0.4) 3px 3px 8px;
 }
