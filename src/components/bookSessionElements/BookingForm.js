@@ -26,6 +26,7 @@ function BookingForm(props) {
             session:
           </h2>
           <input type={"textarea"}></input>
+          <button typeof="submit">SUBMIT</button>
         </div>
       </form>
     </div>

@@ -6,6 +6,7 @@
   position: absolute;
   top: 20%;
   left: 12%;
+  box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
 }
 
 .img-container img {

@@ -28,3 +28,7 @@
   padding: 2px;
   border-radius: 20px;
 }
+
+.social-block-home i:hover {
+  color: black;
+}
