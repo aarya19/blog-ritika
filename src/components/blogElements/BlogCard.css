@@ -5,10 +5,30 @@
   z-index: 2;
 }
 
+.blog-card-container p,
+.blog-card-container h2,
+.blog-card-container div {
+  background-color: #fff;
+}
+
 .blog-card-carousel {
   height: 500px;
   width: 1300px;
   background-color: #e8e4de;
   margin: 10% auto;
   z-index: 1;
+}
+
+.blog-img-container {
+  height: 250px;
+  width: 400px;
+  z-index: 3;
+}
+
+.blog-img-container img {
+  /* Width 100% and Height 100% means it takes 100% of the parent container */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
