@@ -1,0 +1,14 @@
+.blog-card-container {
+  height: 500px;
+  width: 400px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.blog-card-carousel {
+  height: 500px;
+  width: 1300px;
+  background-color: #e8e4de;
+  margin: 10% auto;
+  z-index: 1;
+}
