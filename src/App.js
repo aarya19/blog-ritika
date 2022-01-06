@@ -14,16 +14,16 @@ function App() {
         <Navbar home={true} />
         <Switch>
           <Route path="/book">
-            <BookASession></BookASession>
+            <BookASession />
           </Route>
           <Route path="/about">
-            <AboutMe></AboutMe>
+            <AboutMe />
           </Route>
           <Route path="/blog">
-            <Blog></Blog>
+            <Blog />
           </Route>
           <Route path="/" exact>
-            <HomePage></HomePage>
+            <HomePage />
           </Route>
         </Switch>
       </Router>
