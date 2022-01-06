@@ -1,10 +1,9 @@
-import "./App.css";
-import HomePage from "./components/pages/HomePage";
-import BookASession from "./components/pages/BookASession";
-import AboutMe from "./components/pages/AboutMe";
-import Blog from "./components/pages/Blog";
+import Home from "./components/home/Home";
+import BookSession from './components/bookSession/BookSession';
+import AboutMe from "./components/aboutMe/AboutMe";
+// import Blog from "./components/pages/Blog";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/layout/Navbar';
+import Navbar from './components/common/Navbar';
 
 
 function App() {
@@ -14,16 +13,16 @@ function App() {
         <Navbar home={true} />
         <Switch>
           <Route path="/book">
-            <BookASession />
+            <BookSession />
           </Route>
           <Route path="/about">
             <AboutMe />
           </Route>
-          <Route path="/blog">
+          {/* <Route path="/blog">
             <Blog />
-          </Route>
+          </Route> */}
           <Route path="/" exact>
-            <HomePage />
+            <Home />
           </Route>
         </Switch>
       </Router>

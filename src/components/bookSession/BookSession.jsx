@@ -1,6 +1,7 @@
-import "./BookingForm.css";
+import './bookSession.css';
 
-function BookingForm(props) {
+const BookASession = (props) => {
+
   return (
     <div className="form-container">
       <h1>Personal Details</h1>
@@ -8,15 +9,10 @@ function BookingForm(props) {
       <form>
         <div className="form-inputs">
           <input type={"text"} placeholder="First Name"></input>
-
           <input type={"text"} placeholder="Last Name"></input>
-
           <input type={"number"} placeholder="Phone number"></input>
-
           <input type={"email"} placeholder="Email id"></input>
-
           <input type={"text"} placeholder="Address"></input>
-
           <input type={"number"} placeholder="Age"></input>
         </div>
 
@@ -33,4 +29,4 @@ function BookingForm(props) {
   );
 }
 
-export default BookingForm;
+export default BookASession;
