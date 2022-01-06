@@ -15,11 +15,11 @@ function Blog(props) {
   return (
     <MainBody>
       <Slider {...settings} className="blog-card-carousel">
-        <BlogCard></BlogCard>
-        <BlogCard></BlogCard>
-        <BlogCard></BlogCard>
-        <BlogCard></BlogCard>
-        <BlogCard></BlogCard>
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
       </Slider>
     </MainBody>
   );

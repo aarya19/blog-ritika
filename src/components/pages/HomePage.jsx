@@ -8,10 +8,10 @@ import MainBody from "../layout/MainBody";
 function HomePage(props) {
   return (
     <MainBody>
-      <ImageCard></ImageCard>
-      <NameCard></NameCard>
-      <LeftMargin></LeftMargin>
-      <SocialMediaBlock></SocialMediaBlock>
+      <ImageCard />
+      <NameCard />
+      <LeftMargin />
+      <SocialMediaBlock />
     </MainBody>
   );
 }
