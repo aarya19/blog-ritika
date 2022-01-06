@@ -1,5 +1,4 @@
 import MainBody from "../layout/MainBody";
-import Header from "../layout/Header";
 import BlogCard from "../blogElements/BlogCard";
 import Slider from "react-slick";
 import "../blogElements/BlogCard.css";
@@ -15,7 +14,6 @@ function Blog(props) {
 
   return (
     <MainBody>
-      <Header></Header>
       <Slider {...settings} className="blog-card-carousel">
         <BlogCard></BlogCard>
         <BlogCard></BlogCard>
