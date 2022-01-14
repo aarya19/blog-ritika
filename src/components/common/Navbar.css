@@ -23,19 +23,19 @@ header {
 .logo h1 {
   font-family: "Lovers Quarrel";
   font-size: 4rem;
-  color: black;
+  /* color: black; */
 }
 
 .logoHome {
   width: 15%;
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 
 .logoHome h1 {
   font-family: "Lovers Quarrel";
   font-size: 4rem;
-  background-color: black;
+  /* background-color: black; */
   color: white;
   text-align: center;
   padding-top: 2rem;

@@ -1,10 +1,9 @@
 import Home from "./components/home/Home";
-import BookSession from './components/bookSession/BookSession';
+import BookSession from "./components/bookSession/BookSession";
 import AboutMe from "./components/aboutMe/AboutMe";
 // import Blog from "./components/pages/Blog";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/common/Navbar';
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/common/Navbar";
 
 function App() {
   return (
