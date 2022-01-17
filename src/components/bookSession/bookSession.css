@@ -1,14 +1,17 @@
+.book-session-container {
+  display: block;
+  margin: auto;
+  padding: 7% 0;
+}
+
 .form-container {
-  position: absolute;
   display: block;
   border-radius: 2%;
-  top: 15%;
   width: 80%;
   height: 73%;
   background-color: #eae0d2;
-  padding: 0px 30px;
-  top: 15%;
-  align-items: center;
+  padding: 2px 30px;
+  margin: auto;
 }
 
 .form-container form {

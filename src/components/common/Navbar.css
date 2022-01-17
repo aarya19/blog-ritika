@@ -1,3 +1,6 @@
+.nav-container {
+  display: block;
+}
 header {
   margin: 0;
   padding: 0;
